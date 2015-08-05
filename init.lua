@@ -239,7 +239,7 @@ minetest.register_node(MN..":b11", { --проход
 })
 
 minetest.register_node(MN..":b12", { --тупик
-	description = "SSteel slab №12",
+	description = "Steel slab №12",
 	drawtype = "nodebox",
 	paramtype = "light",
 	paramtype2 = "facedir",
