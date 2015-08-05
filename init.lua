@@ -647,7 +647,7 @@ minetest.register_craft({output = MN..":b11",
 minetest.register_craft({output = MN..":b12",
 	recipe = {
 		{"",			MN..":a01",		""				},
-		{MN..":a01",	MN..":a00",		MN..":a01"		},
+		{MN..":a01",	MN..":b00",		MN..":a01"		},
 		{"",			"",				""				},
 	},
 })
