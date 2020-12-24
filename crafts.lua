@@ -1,8 +1,8 @@
-minetest.register_craft({output = FB.NAME..":i00 200",
+minetest.register_craft({output = FB.NAME..":i00 10",
 	recipe ={
-		{	"",			"",			"default:steel_ingot",	},
-		{	"",			"default:steel_ingot",	"",			},
-		{	"default:steel_ingot",	"",			"",			},
+		{	"",			"",			"",	},
+		{	"",			"basic_materials:steel_bar",	"",			},
+		{	"",	"",			"",			},
 	},
 })
 minetest.register_craft({output = FB.NAME..":i01 350",
